@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
     margin-left: 50px;
     margin-right: 50px;
@@ -66,14 +67,34 @@
     margin-right: 25px;
     font-size: 21px;
 }
-.family2>.child1>.learn>h1{
-    margin-top: 70px;
-    font-size: 55px;
+.family2>.child1>.learn>.learn_frome{
+    margin: 30px 0px 0px 0px;
+    font-size: 27px;
 }
-.family2>.child1>.the_best>h1{
-    margin: -125px 0px 0px 130px;
-    font-size: 55px;
-    color: #FB9C46;
+.family2>.child1>.learn>.home{
+    margin: -62px 0px 0px -70px;
+    font-size: 27px;
+}
+.family2>.child1>.learn>.with{
+    margin: 30px 0px 0px 0px;
+    font-size: 27px;
+}
+.family2>.child1>.learn>.the_best{
+    margin: -62px 0px 0px 130px;
+    font-size: 27px;
+    color:#FB9C46;
+}
+.family2>.child1>.learn>.online{
+    margin: 30px 0px 0px 0px;
+    font-size: 27px;
+}
+.family2>.child1>.learn>.Languange{
+    margin: -62px 0px 0px 170px;
+    font-size: 27px;
+}
+.family2>.child1>.learn>.tutors{
+    margin: -62px 0px 0px 430px;
+    font-size: 27px;
 }
 .family2>.child1>h6{
     margin-top: 90px;
@@ -92,6 +113,26 @@
 }
 .family2>.child2{
    width: 50%;
+}
+.family2>.child1>.lorem>.dolor>h6{
+    margin-top: 20px;
+    font-size: 19px;
+    color: #6C6C6C;
+}
+.family2>.child1>.lorem>.elit>h6{
+    margin: -22px 0px 0px 335px;
+    font-size: 19px;
+    color: #6C6C6C;
+}
+.family2>.child1>.lorem>.mollis>h6{
+    margin: 12px 0px 0px 0px;
+    font-size: 19px;
+    color: #6C6C6C;
+}
+.family2>.child1>.lorem>.nulla>h6{
+    margin: -22px 0px 0px 200px;
+    font-size: 19px;
+    color: #6C6C6C;
 }
 .family2>.child2>.images1{
     margin: 40px 50px 0px 50px;
@@ -150,10 +191,11 @@
     margin-top: 30px;
     display: flex;
 }
-.family3>.child1>.what>.want>p{
-    color: #FB9C46;
+.family3>.child1>.what>.want>.images1{
     margin-right: 25px;
-    font-size: 20px;
+}
+.family3>.child1>.what>.want>.images2{
+    margin-top: -5px;
 }
 .family3>.child2{
     margin-left: 50px;
@@ -162,7 +204,24 @@
 .family3>.child2>.lorem{
     margin: 10px 0px 0px 75px;
 }
-.family3>.child2>.lorem>h6{
+.family3>.child2>.lorem>.sit>h6{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.family3>.child2>.lorem>.nec>h6{
+    margin: -29px 0px 0px 280px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.family3>.child2>.lorem>.amet>h6{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.family3>.child2>.lorem>.ante>h6{
+    margin: -28px 0px 0px 300px;
     font-size: 16px;
     line-height: 28px;
     color: #6C6C6C;
@@ -172,53 +231,32 @@
     margin: 15px 0px 0px 75px;
 }
 .family3>.child2>.images>.images1{
-    margin: -66px 0px 0px -75px;
+    margin: -76px 0px 0px -75px;
     width: 270px;
 }
-.family3>.child2>.images>.images1>img{
-    width: 100%;
-}
 .family3>.child2>.images>.images2{
-    margin: -74px 0px 0px -195px;
+    margin: -80px 0px 0px -195px;
     width: 280px;
-}
-.family3>.child2>.images>.images2>img{
-    width: 100%;
 }
 .family3>.child2>.images>.images3{
-    margin: -69px 0px 0px -208px;
+    margin: -75px 0px 0px -208px;
     width: 280px;
 }
-.family3>.child2>.images>.images3>img{
-    width: 100%;
-}
 .family3>.child2>.images>.images4{
-    margin: -77px 0px 0px -200px;
+    margin: -80px 0px 0px -200px;
     width: 285px;
-}
-.family3>.child2>.images>.images4>img{
-    width: 100%;
 }
 .family3>.child2>.images>.images5{
-    margin: -76px 0px 0px -207px;
+    margin: -79px 0px 0px -207px;
     width: 285px;
-}
-.family3>.child2>.images>.images5>img{
-    width: 100%;
 }
 .family3>.child2>.images>.images6{
-    margin: -76px 0px 0px -210px;
+    margin: -79px 0px 0px -210px;
     width: 285px;
-}
-.family3>.child2>.images>.images6>img{
-    width: 100%;
 }
 .family3>.child2>.images>.images7{
-    margin: -76px 0px 0px -210px;
+    margin: -79px 0px 0px -210px;
     width: 285px;
-}
-.family3>.child2>.images>.images7>img{
-    width: 100%;
 }
 .family3>.child2>.images>.viev{
     margin: 36px 0px 0px -110px;
@@ -232,27 +270,63 @@
     margin: 34px 0px 0px 15px;
     width: 25px;
 }
-.family3>.child2>.images>.images8>img{
-    width: 100%;
-}
 /********FAMILY_4********/
 .family4{
     display: flex;
 }
-.family4>.child1>.purchase{
-    margin-top: 100px;
-}
-.family4>.child1>.purchase>h2{
+.family4>.child1>.purchase>.your>h2{
+    margin: 100px 0px 0px 0px;
     font-size: 48px;
     letter-spacing: 3.5%;
     line-height: 76px;
 }
-.family4>.child1>.ipsum{
-    margin-top: 30px;
+.family4>.child1>.purchase>.awesome>h2{
+    margin: -76px 0px 0px 310px;
+    font-size: 48px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
 }
-.family4>.child1>.ipsum>h6{
+.family4>.child1>.purchase>.lessons>h2{
+    margin: 5px 0px 0px 0px;
+    font-size: 48px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
+}
+.family4>.child1>.purchase>.find>h2{
+    margin: -76px 0px 0px 150px;
+    font-size: 48px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
+}
+.family4>.child1>.ipsum>.lorem>h6{
+    margin: 20px 0px 0px 0px;
+    font-size: 17px;
     color: #6C6C6C;
-    font-size: 22px; 
+}
+.family4>.child1>.ipsum>.elit>h6{
+    margin: -20px 0px 0px 300px;
+    font-size: 17px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.cras>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 17px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.libero>h6{
+    margin: -20px 0px 0px 185px;
+    font-size: 17px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.accumsan>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 17px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.eget>h6{
+    margin: -20px 0px 0px 75px;
+    font-size: 17px;
+    color: #6C6C6C;
 }
 .family4>.child1>.btn{
     display: flex;
@@ -331,12 +405,25 @@
     font-size: 48px;
     line-height: 76px;
 }
-.family5>.child2>.ispum{
-    margin: 10px 0px 0px 0px;
+.family5>.child2>.ispum>.dolor>h6{
+    margin-top: 20px;
+    font-size: 19px;
+    color: #6C6C6C;
 }
-.family5>.child2>.ispum>h6{
-    font-size: 21px;
-    color:#6C6C6C;
+.family5>.child2>.ispum>.elit>h6{
+    margin: -22px 0px 0px 335px;
+    font-size: 19px;
+    color: #6C6C6C;
+}
+.family5>.child2>.ispum>.mollis>h6{
+    margin: 12px 0px 0px 0px;
+    font-size: 19px;
+    color: #6C6C6C;
+}
+.family5>.child2>.ispum>.nulla>h6{
+    margin: -22px 0px 0px 200px;
+    font-size: 19px;
+    color: #6C6C6C;
 }
 .family5>.child2>.images1{
     margin: -100px 0px 0px -130px;
@@ -402,7 +489,32 @@
 .family6>.child1>.ipsum{
     margin-top: 30px;
 }
-.family6>.child1>.ipsum>h6{
+.family6>.child1>.ipsum>.dolor>h6{
+    color: #6C6C6C;
+    font-size: 20px; 
+}
+.family6>.child1>.ipsum>.elit>h6{
+    margin: -23px 0px 0px 440px;
+    color: #6C6C6C;
+    font-size: 20px; 
+}
+.family6>.child1>.ipsum>.mollis>h6{
+    margin: 5px 0px 0px 0px;
+    color: #6C6C6C;
+    font-size: 20px; 
+}
+.family6>.child1>.ipsum>.nulla>h6{
+    margin: -23px 0px 0px 305px;
+    color: #6C6C6C;
+    font-size: 20px; 
+}
+.family6>.child1>.ipsum>.accumsan>h6{
+    margin: 5px 0px 0px 0px;
+    color: #6C6C6C;
+    font-size: 20px; 
+}
+.family6>.child1>.ipsum>.eget>h6{
+    margin: -23px 0px 0px 89px;
     color: #6C6C6C;
     font-size: 20px; 
 }
@@ -462,7 +574,24 @@
 .family7>.d_flex>.child1>.edu{
     margin: -160px 0px 0px 0px;
 }
-.family7>.d_flex>.child1>.edu>h2{
+.family7>.d_flex>.child1>.edu>.smart>h2{
+    color: #FB9C46;
+    font-size: 45px;
+    line-height: 56px;
+}
+.family7>.d_flex>.child1>.edu>.about>h2{
+    margin: -56px 0px 0px 290px;
+    color: #FB9C46;
+    font-size: 45px;
+    line-height: 56px;
+}
+.family7>.d_flex>.child1>.edu>.mastering>h2{
+    color: #FB9C46;
+    font-size: 45px;
+    line-height: 56px;
+}
+.family7>.d_flex>.child1>.edu>.skill>h2{
+    margin: -56px 0px 0px 200px;
     color: #FB9C46;
     font-size: 45px;
     line-height: 56px;
@@ -470,7 +599,18 @@
 .family7>.d_flex>.child1>.from{
     margin: 20px 0px 0px 0px;
 }
-.family7>.d_flex>.child1>.from>h6{
+.family7>.d_flex>.child1>.from>.new>h6{
+    color: #90A3B4;
+    font-size: 20px;
+    line-height: 26px;
+}
+.family7>.d_flex>.child1>.from>.people>h6{
+    margin: -26px 0px 0px 385px;
+    color: #90A3B4;
+    font-size: 20px;
+    line-height: 26px;
+}
+.family7>.d_flex>.child1>.from>.the>h6{
     color: #90A3B4;
     font-size: 20px;
     line-height: 26px;
@@ -484,20 +624,44 @@
 .family7>.d_flex>.child2>.images2{
     margin: -20px 0px 0px 0px;
 }
-.family7>.d_flex>.child2>.can{
+.family7>.d_flex>.child2>.can>.for>h6{
     margin: 15px 0px 0px 0px;
+    font-size: 16px;
+    color: #90A3B4;
 }
-.family7>.d_flex>.child2>.can{
+.family7>.d_flex>.child2>.can>.you>h6{
+    margin: -18px 0px 0px 305px;
+    font-size: 16px;
+    color: #90A3B4;
+}
+.family7>.d_flex>.child2>.can>.itis>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+    color: #90A3B4;
+}
+.family7>.d_flex>.child2>.can>.us>h6{
+    margin: -18px 0px 0px 150px;
+    font-size: 16px;
+    color: #90A3B4;
+}
+.family7>.d_flex>.child2>.can>.with>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+    color: #90A3B4;
+}
+.family7>.d_flex>.child2>.can>.our>h6{
+    margin: -18px 0px 0px 35px;
+    font-size: 16px;
     color: #90A3B4;
 }
 .family7>.d_flex>.child2>.img_text{
     display: flex;
 }
-.family7>.d_flex>.child2>.img_text{
+.family7>.d_flex>.child2>.img_text>.images3{
     margin: 20px 0px 0px 0px;
 }
 .family7>.d_flex>.child2>.img_text>.hart1>h4{
-    margin: 3px 0px 0px 20px;
+    margin: 23px 0px 0px 20px;
     color: #FB9C46;
     font-size: 20px;
 }
@@ -507,7 +671,7 @@
     color:#90A3B4;
 }
 .family7>.d_flex>.child2>.img_text>.images4{
-    margin: -48px 0px 0px 0px;
+    margin: -30px 0px 0px 0px;
 }
 .family7>.d_flex>.child2>.img_radius{
     display: flex;
@@ -531,68 +695,640 @@
 .family8_container{
    max-width: 1400px;
 }
-.family8{
+.family9{
     background: #F2BF62;
     margin: 150px 1px 0px 1px;
     display: flex;
 }
-.family8>.child1{
+.family9>.child1{
     margin: 100px 0px 0px 150px;
 }
-.family8>.child1>h5{
+.family9>.child1>h5{
     color: #FFFFFF;
     font-size: 25px;
     margin: 0px 0px 0px 5px;
 }
-.family8>.child1>h6{
+.family9>.child1>h6{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 100;
     margin: 35px 0px 0px 5px;
 }
-.family8>.child1>.icons{
+.family9>.child1>.icons{
     display: flex;
     margin: 35px 0px 0px 0px;
 }
-.family8>.child2>h5{
+.family9>.child2>h5{
     color: #FFFFFF;
     font-size: 25px;
     margin: 100px 0px 0px 120px;
 }
-.family8>.child2>h6{
+.family9>.child2>h6{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 100;
     margin: 35px 0px 0px 120px;
 }
-.family8>.child3>h5{
+.family9>.child3>h5{
     color: #FFFFFF;
     font-size: 25px;
     margin: 100px 0px 0px 115px;
 }
-.family8>.child3>h6{
+.family9>.child3>h6{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 100;
     margin: 35px 0px 0px 115px;
 }
-.family8>.child4>h5{
+.family9>.child4>h5{
     color: #FFFFFF;
     font-size: 25px;
     margin: 100px 0px 0px 115px;
 }
-.family8>.child4>h6{
+.family9>.child4>h6{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 100;
     margin: 35px 0px 0px 115px;
 }
-.family8>.child4>.the_end>h5{
+.family9>.child4>.the_end>h5{
     color: #FFFFFF;
     font-size: 25px;
     margin: 250px 0px 100px -260px;
 }
-
+.family1>img{
+    display: none;
+}
+.family8_container>.family8{
+    display: none;
+}
+.family8_container>.family10{
+    display: none;
+}
+/********RESPONSIVE********/
+@media (max-width:576px){
+    body{
+        overflow-x: hidden;
+    }
+/********FAMILY_1********/
+.family1>.child2{
+        display: none;
+}
+    .family1{
+    display: flex;
+    justify-content: space-between;
+    }
+    .family1>img{
+        display: block;
+    }
+    /********RESPONSIVE********/
+    /********FAMILY_2********/
+    .family2>.child1>.best{
+        margin-top: 20px;  
+    }
+    .family2>.child1>.best>p{
+        font-size: 10px;
+    }
+    .family2>.child1>.learn>h1{
+        font-size: 28px;
+    }
+    .family2>.child2>.images6{
+        margin: 250px 0px 100px -260px; 
+    }
+    .family2>.child1>.learn>.learn_frome{
+    margin: 30px 0px 0px 0px;
+    font-size: 15px;
+}
+.family2>.child1>.learn>.home{
+    margin: 5px 0px 0px -400px;
+    font-size: 15px;
+}
+.family2>.child1>.learn>.with{
+    margin: -35px 0px 0px 90px;
+    font-size: 15px;
+}
+.family2>.child1>.learn>.the_best{
+    margin: 5px 0px 0px 0px;
+    font-size: 15px;
+}
+.family2>.child1>.learn>.online{
+    margin: -35px 0px 0px 120px;
+    font-size: 15px;
+}
+.family2>.child1>.learn>.Languange{
+    margin: 5px 0px 0px 0px;
+    font-size: 15px;
+}
+.family2>.child1>.learn>.tutors{
+    margin: -35px 0px 0px 150px;
+    font-size: 15px;
+}
+.family2>.child1>.lorem>.dolor>h6{
+    margin: 25px 0px 0px 0px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family2>.child1>.lorem>.elit>h6{
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family2>.child1>.lorem>.mollis>h6{
+    margin: -16px 0px 0px 90px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family2>.child1>.lorem>.nulla>h6{
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family2>.child2>.images1>img{
+    margin: 470px 0px 0px -220px;
+    width: 500%;
+}
+.family2>.child2>.images2>img{
+    margin: 401px 0px 0px -220px;
+    width: 500%;
+}
+.family2>.child2>.images3>img{
+    margin: 410px 0px 0px -430px;
+    width: 200%;
+}
+.family2>.child2>.images4{
+    margin: 100px 0px 0px 30px;
+    width: 40%;
+}
+.family2>.child2>.images5>img{
+    margin: 170px 0px 0px 60px;
+    width: 50%;
+}
+.family2>.child2>.images6{
+    margin: -410px 0px 0px -200px;
+    width: 39%;
+}
+/********RESPONSIVE********/
+/********FAMILY_3********/
+.family3>.child1>.what>p{
+    font-size: 15px;
+}
+.family3>.child1>.what>h1{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.family3>.child1>.what>.want>.images1{
+    margin-top: -10px;
+    margin-right: 100px;
+    width: 50px;
+}
+.family3>.child1>.what>.want>.images2{
+    margin-top: -15px;
+    margin-right: 100px;
+    width: 55px;
+}
+.family3>.child2>.lorem>.sit>h6{
+    margin: 120px 0px 0px -432px;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.family3>.child2>.lorem>.nec>h6{
+    margin: -5px 0px 0px -432px;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.family3>.child2>.lorem>.amet>h6{
+    margin: -5px 0px 0px -432px;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.family3>.child2>.lorem>.ante>h6{
+    margin: -5px 0px 0px -432px;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.family3>.child2>.images>.images1{
+    margin: -76px 0px 0px -520px;
+    width: 270px;
+}
+.family3>.child2>.images>.images5{
+    margin: -5px 0px 0px -506px;
+    width: 270px;
+}
+.family3>.child2>.images>.images6{
+    margin: -5px 0px 0px -200px;
+    width: 270px;
+}
+.family3>.child2>.images>.images7{
+    margin: -5px 0px 0px -200px;
+    width: 270px;
+}
+.family3>.child2>.images>.viev{
+    margin: 116px 0px 0px -110px;
+}
+.family3>.child2>.images>.images8{
+    margin: 110px 0px 0px 15px;
+    width: 25px;
+}
+/********RESPONSIVE********/
+/********FAMILY_4********/
+.family4>.child1>.purchase>.your>h2{
+    font-size: 48px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
+}
+.family4>.child1>.purchase>.your>h2{
+    margin: -20px 0px 0px 0px;
+    font-size: 32px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
+}
+.family4>.child1>.purchase>.awesome>h2{
+    margin: -20px 0px 0px 0px;
+    font-size: 32px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
+}
+.family4>.child1>.purchase>.lessons>h2{
+    margin: -76px 0px 0px 155px;
+    font-size: 32px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
+}
+.family4>.child1>.purchase>.find>h2{
+    margin: -20px 0px 0px 0px;
+    font-size: 32px;
+    letter-spacing: 3.5%;
+    line-height: 76px;
+}
+.family4>.child1>.ipsum>.lorem>h6{
+    margin: 20px 0px 0px 0px;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.elit>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.cras>h6{
+    margin: -16px 0px 0px 135px;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.libero>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.accumsan>h6{
+    margin: -16px 0px 0px 205px;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.family4>.child1>.ipsum>.eget>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.family4>.child1>.btn>.btn_1{
+    background: #FB9C46;
+    border: none;
+    border-radius: 16px;
+}
+.family4>.child1>.btn>.btn_1>p{
+    padding: 0px 49px;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.family4>.child1>.btn>.btn_2{
+    margin-left: 15px;
+    background:#FFFFFF;
+    border: 3px solid #FB9C46;
+    border-radius: 16px;
+}
+.family4>.child1>.btn>.btn_2>p{
+    padding: 0px 50px;
+    font-size: 10px;
+    color: #FB9C46;
+}
+.family4>.child2>.images{
+    margin: 350px 0px 0px -390px;
+    width: 450px;
+}
+/********RESPONSIVE********/
+/********FAMILY_5********/
+.family5>.child2>.what>h2{
+    margin: -30px 0px 0px -366px;
+    font-size: 30px; 
+}
+.family5>.child2>.get>h2{
+    margin: -30px 0px 0px -485px;
+    font-size: 30px; 
+}
+.family5>.child2>.icon>h2{
+    margin: -30px 0px 0px -520px;
+    font-size: 30px; 
+}
+.family5>.child2>.ispum>.dolor>h6{
+    margin: 5px 0px 0px -320px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family5>.child2>.ispum>.elit>h6{
+    margin: 10px 0px 0px -313px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family5>.child2>.ispum>.mollis>h6{
+    margin: -16px 0px 0px -230px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family5>.child2>.ispum>.nulla>h6{
+    margin: 10px 0px 0px -203px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.family5>.child2>.images1{
+    margin: -60px 0px 0px -490px;
+    width: 457px;  
+}
+.family5>.child2>.images2{
+    margin: -133px 0px 0px -390px;
+    width: 257px;  
+}
+.family5>.child2>.images3{
+    margin: -60px 0px 0px -490px;
+    width: 457px;  
+}
+.family5>.child2>.images4{
+    margin: -133px 0px 0px -390px;
+    width: 257px;  
+}
+.family5>.child2>.images5{
+    margin: -60px 0px 0px -490px;
+    width: 457px;  
+}
+.family5>.child2>.images6{
+    margin: -133px 0px 0px -390px;
+    width: 257px;  
+}
+.family5>.child1>.images1{
+    margin: 550px 0px 0px 0px;
+    width: 287px;  
+}
+.family5>.child1>.images2{
+    margin: -291px 0px 0px 0px;
+    width: 287px;  
+}
+.family5>.child1>.images3{
+    margin: -354px 0px 0px 32px;
+    width: 324px;  
+}
+/********RESPONSIVE********/
+/********FAMILY_6********/
+.family6>.child1>.works_1>h2{
+    margin: -114px 0px 0px 0px;
+    font-size: 32px;
+}
+.family6>.child1>.works_2>h2{
+    margin: 0px 0px 0px -102px;
+    font-size: 32px;
+}
+.family6>.child1>.ipsum>.dolor>h6{
+    margin: -30px 0px 0px 0px;
+    font-size: 13px;
+}
+.family6>.child1>.ipsum>.elit>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 13px;
+}
+.family6>.child1>.ipsum>.mollis>h6{
+    margin: -16px 0px 0px 65px;
+    font-size: 13px;
+}
+.family6>.child1>.ipsum>.nulla>h6{
+    margin: 5px 0px 0px 0px;
+    font-size: 13px;
+}
+.family6>.child1>.ipsum>.accumsan>h6{
+    margin: -16px 0px 0px 131px;
+    font-size: 13px;
+}
+.family6>.child1>.ipsum>.eget>h6{
+    margin: -16px 0px 0px 190px;
+    font-size: 13px;
+}
+.family6>.child1>.images1>img{
+    margin: 180px 0px 0px 50px;
+    width: 550px;
+}
+.family6>.child1>.images2>img{
+    margin: 340px 0px 0px 50px;
+    width: 550px;
+}
+.family6>.child1>.images3>img{
+    margin: 340px 0px 0px 50px;
+    width: 550px;
+}
+.family6>.child2>.images1>img{
+    margin: 160px 0px 0px -490px;
+    width: 300px;
+}
+.family6>.child2>.images2>img{
+    margin: 100px 0px 0px -580px;
+    width: 40px;
+}
+.family6>.child2>.images3>img{
+    margin: 30px 0px 0px -580px;
+    width: 40px;
+}
+.family6>.child2>.images4>img{
+    margin: -35px 0px 0px -650px;
+    width: 200px;
+}
+/********RESPONSIVE********/
+/********FAMILY_7********/
+.family7>.d_flex>.child1>.edu>.smart>h2{
+    margin: 220px 0px 0px 0px;
+    font-size: 33px;
+}
+.family7>.d_flex>.child1>.edu>.about>h2{
+    margin: -5px 0px 0px 0px;
+    font-size: 33px;
+}
+.family7>.d_flex>.child1>.edu>.mastering>h2{
+    margin: -57px 0px 0px 90px;
+    font-size: 33px;
+}
+.family7>.d_flex>.child1>.edu>.skill>h2{
+    margin: -5px 0px 0px 0px;
+    font-size: 33px;
+}
+.family7>.d_flex>.child1>.from>.new>h6{
+    margin: -5px 0px 0px 0px;
+    font-size: 10px;  
+}
+.family7>.d_flex>.child1>.from>.people>h6{
+    margin: -5px 0px 0px 0px;
+    font-size: 10px;  
+}
+.family7>.d_flex>.child1>.from>.the>h6{
+    margin: -26px 0px 0px 105px;
+    font-size: 10px;  
+}
+.family7>.d_flex>.child2>.images1>img{
+    margin: 520px 0px 0px -300px;
+    width: 30px;
+}
+.family7>.d_flex>.child2>.images2>img{
+    margin: 5px 0px 0px -310px;
+    width: 100px;
+}
+.family7>.d_flex>.child2>.can>.for>h6{
+    margin: 10px 0px 0px -320px;
+    font-size: 14px;
+}
+.family7>.d_flex>.child2>.can>.you>h6{
+    margin: 5px 0px 0px -320px;
+    font-size: 14px;
+}
+.family7>.d_flex>.child2>.can>.itis>h6{
+    margin: -16px 0px 0px -222px;
+    font-size: 14px;
+}
+.family7>.d_flex>.child2>.can>.us>h6{
+    margin: 5px 0px 0px -320px;
+    font-size: 14px;
+}
+.family7>.d_flex>.child2>.can>.with>h6{
+    margin: -16px 0px 0px -97px;
+    font-size: 14px;
+}
+.family7>.d_flex>.child2>.can>.our>h6{
+    margin: 5px 0px 0px -320px;
+    font-size: 14px;
+}
+.family7>.d_flex>.child2>.img_text>.images3>img{
+    margin: 0px 0px 0px -320px;
+    width: 50px;
+}
+.family7>.d_flex>.child2>.img_text>.hart1>h4{
+    margin: 25px 0px 0px -260px;
+    font-size: 16px;
+}
+.family7>.d_flex>.child2>.img_text>.hart1>h6{
+    margin: 5px 0px 0px -260px;
+    font-size: 10px;
+}
+.family7>.d_flex>.child2>.img_text>.images4>img{
+    margin: 32px 0px 0px -80px;
+    width: 100px;
+}
+.family7>.d_flex>.child2>.img_radius{
+    margin: 5px 0px 0px -318px;
+}
+.family7>.images10{
+   display: none;
+}
+/********RESPONSIVE********/
+/********FAMILY_8********/
+.family8_container>.family8{
+    display: block;
+}
+.family8>.images1>img{
+    margin: 80px 0px 0px 0px;
+    width: 390px;
+}
+.family8>.learn>h1{
+    margin: -425px 0px 0px 30px;
+    color: #FFFFFF;
+}
+.family8>.just>h1{
+    margin: 5px 0px 0px 30px;
+    color: #FFFFFF;
+}
+.family8>.images2>img{
+    margin: -40px 0px 0px 250px;
+    width: 40px;
+}
+.family8>.over>h6{
+    margin: 5px 0px 0px 30px;
+    color: #FFFFFF;
+}
+.family8>.images3>img{
+    margin: 20px 0px 0px 30px;
+    width: 300px;
+}
+.family8>.images4>img{
+    margin: -10px 0px 0px 8px;
+}
+.family8_container>.family9{
+    display: none;
+}
+.family8_container>.family10{
+    display: block;
+}
+/********RESPONSIVE********/
+/********FAMILY_10********/
+.family10>.images1>img{
+    margin: 70px 0px 0px 0px;
+    width: 390px;
+}
+.family10>.tutorify>p{
+    margin: -530px 0px 0px 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.family10>.learn>h6{
+    margin: 20px 0px 0px 30px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.family10>.icons{
+    display: flex;
+    margin-left: 30px;
+}
+.family10>.images2>img{
+    margin: 15px 0px 0px 0px;
+    width: 390px;
+}
+.family10>.tex_icon{
+    display: flex;
+}
+.family10>.tex_icon>.tex1>h5{
+    margin: 20px 220px 0px 30px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.family10>.tex_icon>.tex2>h5{
+    margin: 20px 245px 0px 30px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.family10>.tex_icon>.tex3>h5{
+    margin: 20px 233px 0px 30px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.family10>.tex_icon>.tex4>h5{
+    margin: 20px 262px 0px 30px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.family10>.tex_icon>.icon>img{
+    margin-top: 30px;
+}
+.family10>.the_end>h5{
+    margin: 50px 0px 0px 50px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+}
 
 
 
